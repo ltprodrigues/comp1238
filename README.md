@@ -28,7 +28,7 @@
 
 ## Keyboard shortcuts
 - ctrl-a (select all)
-- ctrl-f (search for specific)
+- ctrl-x (cut)
 - ctrl-z (undo)
 
 shortcut I would like to start using
