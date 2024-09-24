@@ -31,8 +31,7 @@
 - ctrl-f (search for specific)
 - ctrl-z (undo)
 
-shortcut I would like to start usingÇ
-
+shortcut I would like to start using
 - ctrl-y (redo)
 - alt-F4 (close active window)
 - windows key-L (lock screen)
