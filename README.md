@@ -15,7 +15,7 @@
 
 ## Links:
 
-- [CLI commands](docs/cli.md)
+- [CLI commands](cli.md)
 - [Git Hub](https://github.com)
 - [Moodle MarkDown](https://docs.moodle.org/404/en/Markdown)
 
