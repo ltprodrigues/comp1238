@@ -13,13 +13,13 @@
     city: Miami
   position: Forward
   age: 36
-- name: Serena Williams
-  sport: Tennis
-  team:
+- name: Serena Williams # string
+  sport: Tennis         # string
+  team:                 # array
     name: n/a
     city: n/a
-  position: Player
-  age: 41
+  position: Player       # string
+  age: 41                # number
 - name: Tom Brady
   sport: Football
   team:
