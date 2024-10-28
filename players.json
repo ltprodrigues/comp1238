@@ -14,12 +14,12 @@
     "position": "Forward",
     "age": 36
   },
- {
-    "name": "Serena Williams",
-    "sport": "Tennis",
-    "team": {"name": "n/a" , "city": "n/a"},
-    "position": "Player", 
-    "age":  41
+   {
+    "name": "Serena Williams", // string 
+    "sport": "Tennis", //string 
+    "team": {"name": "n/a" , "city": "n/a"}, //array
+    "position": "Player", //string 
+    "age":  41 //number
   },
   {
     "name": "Tom Brady",
