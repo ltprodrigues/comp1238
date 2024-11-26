@@ -1,0 +1,106 @@
+Question 1
+
+SELECT *
+FROM rectangles
+
+Question 2
+A: 17  
+SELECT count(*)
+FROM rectangles
+
+QUESTION 3
+a: #abcdef
+
+SELECT *
+FROM rectangles
+ORDER BY  width DESC
+
+QUESTION 4
+
+A: #FFFFFF
+
+SELECT *
+FROM rectangles
+ORDER BY  height DESC
+  
+QUESTION 5
+
+  SELECT *
+FROM rectangles
+WHERE width > height
+
+  
+QUESTION 6 
+
+ SELECT (WIDTH * height) AS [area] FROM [rectangles]
+
+QUESTION 7 
+A: Red
+  
+SELECT color, (WIDTH * height) AS [area] 
+FROM [rectangles]
+
+QUESTIN 8
+A: #abcdef
+
+ SELECT color, (x + width) as [rightmost_edge]
+ from rectangles
+ ORDER by [rightmost_edge] DESC  
+
+
+QUESTION 9
+
+
+ SELECT *
+ from rectangles
+ WHERE color is NULL
+
+QUESTION 10
+
+
+ SELECT DISTINCT color
+ from rectangles
+ order by color DESC
+
+QUESTION 11
+
+ SELECT DISTINCT color 
+ from rectangles
+ WHERE color IS NOT NULL
+ 	AND color NOT LIKE '#%';
+
+QUESTION 12
+
+ SELECT DISTINCT UPPER(color) 
+ from rectangles
+
+
+QUESTION 13 
+A: 1235
+
+ SELECT course_id
+ from courses
+ order by LENGTH(course_name) DESC
+
+QUESTION 14
+A: 12
+
+SELECT COUNT(*) 
+FROM assignments
+WHERE strftime('%Y', due_date) = '2024'
+
+QUESTION 15
+
+SELECT concat(course_id, ': ', course_name)
+FROM courses
+
+QUESTION 16
+
+
+SELECT course_id, course_name, lab_time
+FROM courses
+WHERE lab_time LIKE 'Monday%';
+
+   
+  
+  
