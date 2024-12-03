@@ -115,5 +115,14 @@ SELECT course_id, COUNT(*)
 FROM assignments
 GROUP BY course_id
 
+BONUS
+
+QUESTION 2
+SELECT 
+    color, 
+    SUBSTR(color, 2, 2) AS red_component 
+FROM 
+    rectangles;
+
   
   
