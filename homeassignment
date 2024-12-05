@@ -44,7 +44,7 @@ QUESTIN 8
 A: #abcdef
 
  SELECT color, (x + width) as [rightmost_edge]
- from rectangles
+ FROM rectangles
  ORDER by [rightmost_edge] DESC  
 
 
@@ -52,35 +52,35 @@ QUESTION 9
 
 
  SELECT *
- from rectangles
+FROM rectangles
  WHERE color is NULL
 
 QUESTION 10
 
 
  SELECT DISTINCT color
- from rectangles
- order by color DESC
+ FROM rectangles
+ ORDER BY color DESC
 
 QUESTION 11
 
  SELECT DISTINCT color 
- from rectangles
+ FROM rectangles
  WHERE color IS NOT NULL
  	AND color NOT LIKE '#%';
 
 QUESTION 12
 
  SELECT DISTINCT UPPER(color) 
- from rectangles
+ FROM rectangles
 
 
 QUESTION 13 
 A: 1235
 
  SELECT course_id
- from courses
- order by LENGTH(course_name) DESC
+ FROM courses
+ ORDER BY LENGTH(course_name) DESC
 
 QUESTION 14
 A: 12
@@ -116,6 +116,19 @@ FROM assignments
 GROUP BY course_id
 
 BONUS
+
+QUESTION 1
+
+SELECT 
+    c.semester, COUNT(*) 
+    AS assignment_count
+FROM 
+   assignments a
+JOIN 
+   courses c ON a.course_id = c.course_id
+GROUP BY 
+    c.semester;
+
 
 QUESTION 2
 SELECT 
