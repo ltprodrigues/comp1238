@@ -131,11 +131,14 @@ GROUP BY
 
 
 QUESTION 2
+
+
 SELECT 
     color, 
     SUBSTR(color, 2, 2) AS red_component 
 FROM 
-    rectangles;
+    rectangles
+WHERE color LIKE '#%'    
 
   
   
